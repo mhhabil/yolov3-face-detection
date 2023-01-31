@@ -64,12 +64,7 @@ $ python yoloface.py --image samples/outside_000001.jpg --output-dir outputs/
 
 >**video input**
 ```bash
-$ python yoloface.py --video samples/subway.mp4 --output-dir outputs/
-```
-
->**webcam**
-```bash
-$ python yoloface.py --src 1 --output-dir outputs/
+$ python yoloface.py --video samples/video_test_1.MOV --output-dir outputs/
 ```
 
 ## Sample outputs
