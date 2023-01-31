@@ -7,12 +7,6 @@
 
 The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
 
-## YOLOv3's architecture
-
-![Imgur](assets/yolo-architecture.png)
-
-Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
-
 ## OpenCV Deep Neural Networks (dnn module)
 
 OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks such as TensorFlow, Torch, Darknet and Caffe.
@@ -56,7 +50,7 @@ $ pip install -r requirements.txt
 
 * Clone this repository
 ```bash
-$ git clone https://github.com/sthanhng/yoloface
+$ git clone https://github.com/mhhabil/yolov3-face-detection.git
 ```
 
 * For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view?usp=sharing) and place it in the `model-weights/` directory.
@@ -86,5 +80,4 @@ $ python yoloface.py --src 1 --output-dir outputs/
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
 
-## References
 
